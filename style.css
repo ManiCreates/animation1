@@ -1,0 +1,50 @@
+.gallery{
+    display: flex;
+    gap: 1rem;
+    height: 500px;
+     width: 95%;
+      
+
+}
+.gallery > div{
+    flex:1;
+    transition: 1s;
+
+
+}
+.gallery > div:nth-child(1){
+    background: url(./PXL_20240112_055405523.MP.jpg);
+    background-position:  center ;
+    background-size: cover;
+    
+
+}
+.gallery > div:nth-child(2){
+    background: url(./PXL_20240112_055613386_exported_41_1705043021980.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.gallery > div:nth-child(3){
+    background: url(./PXL_20240112_055503558.MP.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.gallery > div:nth-child(4){
+    background: url(./PXL_20240112_055704441.MP.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.gallery > div:nth-child(5){
+    background: url( ./PXL_20240112_060013903.MP.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.gallery > div:nth-child(6){
+    background: url(./PXL_20240112_060254203.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.gallery > div:hover{
+    flex: 6;
+}
+
